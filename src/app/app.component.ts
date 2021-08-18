@@ -6,6 +6,6 @@ import { Component } from "@angular/core";
   // found in index.html
   // want to use a selector with a dash because it is a custom DOM element, WC3 says dash should be included in custom elements.
   selector: "mw-app",
-  template: "<h1>My App</h1>",
+  templateUrl: "./app.component.html",
 })
 export class AppComponent {}
